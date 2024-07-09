@@ -4,8 +4,9 @@
   "description": "This is a solution to a coding Problem called as Magical Arena which was given to me. ",
   "main": "src/game.js",
   "scripts": {
-    "test": "mocha"
-  }
+    "test": "jest",
+    "start": "node src/game.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/aniketash57/MagicalArena.git"
@@ -19,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/aniketash57/MagicalArena/issues"
   },
-  "homepage": "https://github.com/aniketash57/MagicalArena#readme"
+  "homepage": "https://github.com/aniketash57/MagicalArena#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
 }
