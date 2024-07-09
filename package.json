@@ -1,0 +1,23 @@
+{
+  "name": "arenaswiggy",
+  "version": "1.0.0",
+  "description": "This is a solution to a coding Problem called as Magical Arena which was given to me. ",
+  "main": "src/game.js",
+  "scripts": {
+    "test": "mocha"
+  }
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aniketash57/MagicalArena.git"
+  },
+  "keywords": [
+    "magical",
+    "arena"
+  ],
+  "author": "aniket kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aniketash57/MagicalArena/issues"
+  },
+  "homepage": "https://github.com/aniketash57/MagicalArena#readme"
+}
