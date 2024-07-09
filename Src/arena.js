@@ -10,6 +10,8 @@ class Arena {
         let attacker = this.player1.health < this.player2.health ? this.player1 : this.player2;
         let defender = attacker === this.player1 ? this.player2 : this.player1;
 
+        if(attacker.health <= 0 || defender.health <= 0)return `attacker or defender health not positive`
+
         while (this.player1.isAlive() && this.player2.isAlive()) {
             this.attack(attacker, defender);
 
